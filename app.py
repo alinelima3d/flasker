@@ -1,9 +1,9 @@
 from flask import Flask, render_template, jsonify
-# from flask_sqlalchemy import SQLAlchemy
-# from flask_wtf import FlaskForm
-# from wtforms import StringField, SubmitField
-# from wtforms.validators import DataRequired
-# from datetime import datetime
+from flask_sqlalchemy import SQLAlchemy
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired
+from datetime import datetime
 
 app = Flask(__name__)
 # app.config['SECRET_KEY'] = 'my super secret key that no one is suppose to know'
